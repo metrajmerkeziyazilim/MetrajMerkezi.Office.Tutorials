@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetrajMerkezi.Office.Word", "MetrajMerkezi.Office.Word\MetrajMerkezi.Office.Word.csproj", "{584E7A88-AEA8-456D-832C-8FD62ACECA92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.UI", "Test.UI\Test.UI.csproj", "{54A40750-279D-434C-8E03-433861015CE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584E7A88-AEA8-456D-832C-8FD62ACECA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E7A88-AEA8-456D-832C-8FD62ACECA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E7A88-AEA8-456D-832C-8FD62ACECA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E7A88-AEA8-456D-832C-8FD62ACECA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A40750-279D-434C-8E03-433861015CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A40750-279D-434C-8E03-433861015CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A40750-279D-434C-8E03-433861015CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A40750-279D-434C-8E03-433861015CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99BA2B20-5804-446C-8112-8A13618C2A82}
+	EndGlobalSection
+EndGlobal
