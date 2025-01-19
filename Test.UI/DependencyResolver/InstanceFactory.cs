@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrajMerkezi.Office.Word.DependencyResolver
+namespace Test.UI.DependencyResolver
 {
     public class InstanceFactory
     {

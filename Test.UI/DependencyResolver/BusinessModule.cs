@@ -1,15 +1,14 @@
 ﻿using MetrajMerkezi.Office.Word.Abstraction.File;
+using MetrajMerkezi.Office.Word.Abstraction.Manipulation;
+using MetrajMerkezi.Office.Word.Abstraction.Object._Page;
 using MetrajMerkezi.Office.Word.Abstraction.Object._Table;
 using MetrajMerkezi.Office.Word.Services.File;
+using MetrajMerkezi.Office.Word.Services.Manipulation;
+using MetrajMerkezi.Office.Word.Services.Object._Page;
 using MetrajMerkezi.Office.Word.Services.Object._Table;
 using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MetrajMerkezi.Office.Word.DependencyResolver
+namespace Test.UI.DependencyResolver
 {
     public class BusinessModule : NinjectModule
     {
@@ -17,6 +16,9 @@ namespace MetrajMerkezi.Office.Word.DependencyResolver
         {
             Bind<IWordDocumentService>().To<WordDocumentService>();
             Bind<IWordTableService>().To<WordTableService>();
+            Bind<IWordRowService>().To<WordRowService>();
+            Bind<IWordCellService>().To<WordCellService>();
+            Bind<IWordPageSetupService>().To<WordPageSetupService>();
         }
     }
 }
